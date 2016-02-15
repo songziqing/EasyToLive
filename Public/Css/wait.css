@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#FFEFDE;
+	font-family: "微软雅黑";
+	}
+#head{
+	height:100px;
+	background-color:#00CC66;
+	}
+.container h1{
+	color: #fff;
+	letter-spacing:3px;
+	font-size: 42px;
+	}
+.container .cont .col-md-7{
+/* 		border: solid 1px black; */
+		height: 350px;
+		margin-top: 80px;
+	}
+.container .cont .col-md-5{
+/* 	border:  solid 1px black; */
+	height: 430px;
+}
+.container h4 span{
+	color: red;
+	font-size: 21px;
+
+}
+.container h4{
+	margin-left: 50px;
+		letter-spacing:2px;
+}
+.container .pa{
+	margin-top: 40px;
+	margin-left: 50px;
+	font-size: 14px;
+}
+.container .pb{
+	margin-left: 20%;
+	margin-top: 25px;
+}
+.container .pc{
+	margin-left: 25%;
+}
+.container .pd{
+	margin-left: 30%;
+}
+.container .tubiao{
+	
+	height: 80px;
+	width: 90%;
+	margin-top: 20px;
+}
+.container .pta{
+	margin-top: 20px;
+}
+.container .ptb{
+	margin-left: -10px;
+	margin-top: 50px;
+	font-size: 16px;
+}
+.container .word{
+	border: solid 2px #ccc;
+	height: 200px;
+	width: 80%;
+	margin-left: -10px;
+}
+.word .title{
+	margin-left: 36%;
+	margin-top: 40px;
+}
+.word .title span{
+	font-size: 16px;
+}
+.word .ta{
+	margin-left: 20%;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.word .tb{
+	margin-left: 20%;
+		font-size: 14px;
+}
+.word .wang{
+	font-size:13px;
+	margin-left: 45%	
+}
+
+
+
+.foot{
+	height: 100px;
+	background-color: #E5E5E5;
+	margin-top: 200px;
+}
+.foot li{
+	float: left;
+	margin-left: 50px;
+	list-style: none;
+		margin-top: 30px;
+}
+.foot ul{
+	margin-left: 8%;
+}
+.foot .col-xs-9 p {
+	margin-left: 140px;
+	margin-top: 20px;
+}
+.foot .col-xs-8 p {
+	margin-top: 20px;
+}
+.foot .xinxi{
+	margin-left: 30%;
+	margin-top: 10px;
+}

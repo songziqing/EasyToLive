@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>wait</title>
+
+  <link href="__CSS__/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="__CSS__/bootstrap-3.3.5-dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="__JS__/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="__CSS__/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      setTime();
+      queryDatabase();
+
+    });
+
+    var count = 300;
+    function setTime(){
+      $(".pb").html("倒计时：" + count + "秒");
+      $(".pc").html("倒计时：" + count + "秒");
+      $(".pd").html("倒计时：" + count + "秒");
+      count--;
+      if (count >= 0)
+      {
+        setTimeout(setTime, 1000);
+        
+      }
+    }
+
+    // var sum = 300;
+    // function queryDatabase(){
+    //   $(".pc").html(<{$book_id|queryBook=###}>);
+    //   sum = sum - 10;
+    //   if(sum >= 0){
+    //       setTimeout(queryDatabase, 10000);
+
+    //   }
+    // }
+
+    // var sum = 300;
+    // function queryDatabase(){
+
+    //   var abc = <{$book_id|queryBook=###}>;
+    //   alert(abc);
+    //   $(".pc").html(abc);
+    //   sum = sum - 10;
+    //   if(sum >= 0){
+    //       setTimeout(queryDatabase, 10000);
+
+    //   }
+    // }
+
+    var sum = 300;
+    function queryDatabase(){
+      $.post("__URL__/query", { book_id: $("#book_id").val()},
+        function(data){
+          // alert(data);
+          // $("#result").val(data);
+          $flag = data;
+          // alert($flag);
+          if($flag == 1) {
+            
+            
+            window.location.href="__URL__/result/book_id/" + $('#book_id').val(); 
+           
+          }
+
+
+        });
+      
+
+
+
+      sum = sum - 10;
+      if(sum >= 0){
+        setTimeout(queryDatabase, 10000);
+      } else {
+        alert("对不起！！！请您重新选择宾馆和房间！！！");
+        window.location.href="__URL__/option"; 
+      }
+    }
+
+    
+  </script>
+
+  <link href="__CSS__/wait.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+
+	<div id="head">
+   <div class="container">
+     <h1>EasyToLive.pub</h1>
+   </div>
+ </div>
+ <div class="container">
+  <div class="cont">
+   <div class="row">
+     <div class="col-xs-10 col-md-7">
+       <h4><span><b>您好：</b></span>宾馆会在五分钟内处理您的订单&nbsp;.&nbsp;.&nbsp;.</h4>
+       <p class="pa">说明：如果宾馆处理订单超过五分钟，网站将自动对该宾馆做信誉降级处理</p>
+       <p class="pb">倒计时：05:00</p>
+       <p class="pc">倒计时：05:00</p>
+       <p class="pd">倒计时：05:00</p>
+     </div>
+     <div class="col-xs-8 col-md-5">
+       <div class="tubiao">
+         <img src="__IMAGE__/progress2.png">
+       </div>
+       <p class="pta"><a href="#">取消订单</a></p>
+       <p class="ptb"><b>送你一首诗：</b></p>
+       <div class="word">
+         <p class="title"><span>《北陂杏花》</span>  </p>
+         <p class="wang">王安石</p>
+         <p class="ta">一陂春水绕花身，花影妖娆各占春。</p>
+         <p class="tb">纵被春风吹作雪，绝胜南陌碾成尘。</p>
+       </div>
+       <input type="hidden" id="book_id" value="<{$book_id}>">
+      <!--  <input type="text" id="result"> -->
+     </div>
+   </div>
+ </div>
+</div>
+
+
+<div class="container">
+
+
+  <div class="foot">
+
+   <div class="row">
+     <div class="col-xs-9 col-md-6">
+       <p><a href="#">宾馆合作</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">请收录我们的学校</a></p>
+     </div>
+     <div class="col-xs-8 col-md-6">
+       <p><a href="#">用户反馈&交流：QQ 2449953617</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">About</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">隐私条款</a></p>
+      </div>  
+    </div>
+    <p class="xinxi"><a href="#">京ICP备11008151号</a>  &nbsp;&nbsp;&nbsp;&nbsp;京公网安备11010802014853</p>
+  </div>
+
+
+</div>
+</body>
+</html>

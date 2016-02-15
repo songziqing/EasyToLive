@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><script>alert('对不起,请输入以下三个学校中的一个:河南科技学院，新乡学院，新乡医学院')</script>

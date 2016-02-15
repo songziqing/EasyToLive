@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#FFEFDE;
+	font-family: "微软雅黑";
+	}
+#head{
+	height:100px;
+	background-color:#00CC66;
+	}
+.container h1{
+	color: #fff;
+	letter-spacing:3px;
+	font-size: 42px;
+	}
+	
+	
+	
+.main .col-md-7{
+/* 	border: 1px solid black; */
+	height:60px;
+	margin-top: 80px;
+}
+.main .col-md-5{
+	/*border: solid 1px black;*/
+	height: 80px;
+	margin-top: 20px;
+	width: 35%;
+	margin-left: 15px;
+}
+.main .col-md-7 h4{
+	margin-left: 50px;
+	letter-spacing:2px;
+}
+.main .col-md-7 h4 span{
+	color: red;
+	font-size: 21px;
+}
+.linea{
+	background-color: #ccc;
+	height: 1px;
+	margin-top:30px;
+	width: 91%;
+	margin-left: 4%
+}
+.ma .col-md-7{
+/* 	border: solid 1px black; */
+	height: 140px;
+	margin-top: 5px;
+	border-right:solid 1px #ccc;
+}
+.mb .col-md-5{
+/* 	border: solid 1px black; */
+	height: 140px;
+	margin-top: 5px;
+}
+.maina .p1{
+	margin-left: 16%;
+	margin-top: 40px;
+}
+.maina span{
+	font-size: 15px;
+}
+.maina .p3{
+ 	margin-left: 30%;
+	margin-top: -30px; 
+	float: left;
+}
+.maina .p2{
+	margin-left: 16%;
+}
+.maina .p4{
+	margin-left: 36%;
+	margin-top: -30px;
+}
+.maina .p5{
+	margin-left: 41%;
+	margin-top: -30px;
+}
+.maina .name{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.maina .num{
+	margin-left: 20px;
+}
+.maina .linec{
+	background-color: #ccc;
+	margin-top: 5px;
+	height: 1px;
+	width: 91%;
+	margin-left: 4%
+}
+.maina .sm{
+	margin-top:60px;
+	margin-left: 100px;
+}
+.maina .sm2{
+	margin-left: 142px;
+}
+
+
+.foot{
+	height: 100px;
+	background-color: #E5E5E5;
+	margin-top: 200px;
+}
+.foot li{
+	float: left;
+	margin-left: 50px;
+	list-style: none;
+		margin-top: 30px;
+}
+.foot ul{
+	margin-left: 8%;
+}
+.foot .col-xs-9 p {
+	margin-left: 140px;
+	margin-top: 20px;
+}
+.foot .col-xs-8 p {
+	margin-top: 20px;
+}
+.foot .xinxi{
+	margin-left: 30%;
+	margin-top: 10px;
+}

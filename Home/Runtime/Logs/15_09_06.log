@@ -1,0 +1,40 @@
+[ 2015-09-06T09:10:38+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.007903s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150906000001' ) LIMIT 1   [ RunTime:0.000639s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 154 行.
+
+[ 2015-09-06T09:10:48+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.003577s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150906000001' ) LIMIT 1   [ RunTime:0.000260s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 154 行.
+
+[ 2015-09-06T09:10:58+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.003213s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150906000001' ) LIMIT 1   [ RunTime:0.000244s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 154 行.
+
+[ 2015-09-06T09:11:08+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.003214s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150906000001' ) LIMIT 1   [ RunTime:0.000204s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 154 行.
+
+[ 2015-09-06T09:11:18+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.003226s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150906000001' ) LIMIT 1   [ RunTime:0.000250s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 154 行.
+

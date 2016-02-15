@@ -1,0 +1,122 @@
+[ 2015-08-27T22:54:13+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-08-27T22:54:25+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2015-08-27T22:57:23+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003105s ]
+
+[ 2015-08-27T22:57:34+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-08-27T22:57:58+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+
+[ 2015-08-27T22:58:14+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-08-27T22:59:26+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-08-27T22:59:37+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+
+[ 2015-08-27T23:00:23+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002634s ]
+
+[ 2015-08-27T23:00:35+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-08-27T23:05:40+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+
+[ 2015-08-27T23:05:52+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-08-27T23:06:04+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-08-27T23:06:18+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+
+[ 2015-08-27T23:10:58+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.004839s ]
+SQL: SELECT * FROM `tb_books` WHERE ( `book_id` = '宋子' ) LIMIT 1   [ RunTime:0.000294s ]
+
+[ 2015-08-27T23:18:28+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+
+[ 2015-08-27T23:18:40+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.003702s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150827000012' ) LIMIT 1   [ RunTime:0.000352s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 143 行.
+
+[ 2015-08-27T23:18:53+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.004719s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150827000012' ) LIMIT 1   [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 143 行.
+
+[ 2015-08-27T23:19:05+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.003486s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150827000012' ) LIMIT 1   [ RunTime:0.000272s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 143 行.
+
+[ 2015-08-27T23:19:18+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.006710s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150827000012' ) LIMIT 1   [ RunTime:0.000534s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 143 行.
+
+[ 2015-08-27T23:20:05+08:00 ] 0.0.0.0 /EasyToLive/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.007213s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '150827000012' ) LIMIT 1   [ RunTime:0.000522s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive\Home\Lib\Action\IndexAction.class.php 第 143 行.
+

@@ -1,0 +1,9 @@
+[ 2015-08-24T17:49:47+08:00 ] ERR: (ThinkException) 无法加载模块:demo1
+[ 2015-08-24T18:09:31+08:00 ] ERR: (ThinkException) 非法操作:demo1
+[ 2015-08-24T18:09:37+08:00 ] ERR: (ThinkException) 非法操作:demo()
+[ 2015-08-24T21:43:12+08:00 ] ERR: (ThinkException) 无法加载模块:js
+[ 2015-08-24T21:43:12+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2015-08-24T21:43:12+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2015-08-24T21:43:12+08:00 ] ERR: (ThinkException) 无法加载模块:js
+[ 2015-08-24T21:43:12+08:00 ] ERR: (ThinkException) 无法加载模块:css
+[ 2015-08-24T21:44:24+08:00 ] ERR: (ThinkException) 无法加载模块:css

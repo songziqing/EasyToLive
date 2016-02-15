@@ -1,0 +1,22 @@
+[ 2016-01-30T21:13:07+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2016-01-30T21:13:59+08:00 ] 0.0.0.0 /EasyToLive6/index.php/Index/sendMessage
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+
+[ 2016-01-30T21:14:06+08:00 ] 0.0.0.0 /EasyToLive6/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.004552s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '160130000001' ) LIMIT 1   [ RunTime:0.001167s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive6\Home\Lib\Action\IndexAction.class.php 第 172 行.
+
+[ 2016-01-30T21:14:16+08:00 ] 0.0.0.0 /EasyToLive6/index.php/Index/query
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `tb_books` [ RunTime:0.006312s ]
+SQL: SELECT `bosse_idea` FROM `tb_books` WHERE ( `book_id` = '160130000001' ) LIMIT 1   [ RunTime:0.000364s ]
+NOTIC: [8] Use of undefined constant bosse_idea - assumed 'bosse_idea' C:\wamp\www\EasyToLive6\Home\Lib\Action\IndexAction.class.php 第 172 行.
+
